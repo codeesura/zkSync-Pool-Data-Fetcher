@@ -19,6 +19,7 @@ To install the zkSync Pool Data Fetcher, follow these steps:
 ```bash
 git clone https://github.com/codeesura/zksync-pool-data-fetcher.git
 cd zksync-pool-data-fetcher
+cd getpools
 npm install
 ```
 
