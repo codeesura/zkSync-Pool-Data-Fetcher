@@ -5,10 +5,10 @@ zkSync Pool Data Fetcher is a Node.js application that uses the ethers.js librar
 
 ## 📝 Table of Contents
 
-- [💻 Installation](#installation)
-- [🔧 Configuration](#configuration)
-- [📚 Usage](#usage)
-- [📜 License](#license)
+- [💻 Installation](#-installation)
+- [🔧 Configuration](#-configuration)
+- [📚 Usage](#-usage)
+- [📜 License](#-license)
 
 ## 💻 Installation
 
