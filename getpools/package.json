@@ -1,0 +1,16 @@
+{
+  "name": "zksync-pool-data-fetcher",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "codeesura",
+  "license": "MIT",
+  "description": "zkSync Pool Data Fetcher is a powerful tool for the zkSync blockchain that fetches and analyzes pool data from various Automated Market Makers (AMMs). It leverages Node.js and the ethers.js library to interact with zkSync smart contracts, providing insightful information to DeFi enthusiasts and investors.",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  }
+}

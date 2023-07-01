@@ -1,0 +1,722 @@
+[
+  {
+    "id": "Syncswap-0x80115c708e12edd42e504c1cd52aea96c547c05c",
+    "type": "pool",
+    "attributes": {
+      "address": "0x80115c708e12edd42e504c1cd52aea96c547c05c",
+      "name": "USDC / WETH",
+      "baseTokenPriceQuoteToken": 0.000521064664632476,
+      "quoteTokenPriceBaseToken": 1919.147599,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x1a867671e70c"
+          },
+          "contractAddress": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x0337d155f7ac5fdea596"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0xd3d91634cf4c04ad1b76ce2c06f7385a897f54d3",
+    "type": "pool",
+    "attributes": {
+      "address": "0xd3d91634cf4c04ad1b76ce2c06f7385a897f54d3",
+      "name": "USDT / WETH",
+      "baseTokenPriceQuoteToken": 0.000521017391347966,
+      "quoteTokenPriceBaseToken": 1919.321728,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0xc2d0a144ef"
+          },
+          "contractAddress": "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x17a1fd57c1ec1b673d"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0xb3479139e07568ba954c8a14d5a8b3466e35533d",
+    "type": "pool",
+    "attributes": {
+      "address": "0xb3479139e07568ba954c8a14d5a8b3466e35533d",
+      "name": "WETH / WBTC",
+      "baseTokenPriceQuoteToken": 0.06252113,
+      "quoteTokenPriceBaseToken": 15.99459268555546,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x16a12c273a55ba8323"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x9b8fd63c"
+          },
+          "contractAddress": "0xBBeB516fb02a01611cBBE0453Fe3c580D7281011",
+          "decimals": 8,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0x08f328c72a9b420b7568415ed331a1c236e6f620",
+    "type": "pool",
+    "attributes": {
+      "address": "0x08f328c72a9b420b7568415ed331a1c236e6f620",
+      "name": "WETH / Cheems",
+      "baseTokenPriceQuoteToken": 35851231410.38487,
+      "quoteTokenPriceBaseToken": 2.7893045e-11,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x0e752881b0ded5f0ff"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Cheems Token",
+          "symbol": "Cheems",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x78ae8cb2827f7a70b6fe2491ec"
+          },
+          "contractAddress": "0xd599dA85F8Fc4877e61f547dFAcffe1238A7149E",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0xae092fcec5fd04836b12e87da0d7ed3a707b38b0",
+    "type": "pool",
+    "attributes": {
+      "address": "0xae092fcec5fd04836b12e87da0d7ed3a707b38b0",
+      "name": "WETH / DVF",
+      "baseTokenPriceQuoteToken": 2495.005870563446,
+      "quoteTokenPriceBaseToken": 0.000400800660150018,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x04a1e021921262ae3b"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "DeversiFi Token",
+          "symbol": "DVF",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x2d25ae5d645d65fc1643"
+          },
+          "contractAddress": "0xBbD1bA24d589C319C86519646817F2F153c9B716",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Syncswap-0xbd5126537704725a20b3fa79ab73f218f81a40a8",
+    "type": "pool",
+    "attributes": {
+      "address": "0xbd5126537704725a20b3fa79ab73f218f81a40a8",
+      "name": "$KANA / USDC",
+      "baseTokenPriceQuoteToken": 0.013893,
+      "quoteTokenPriceBaseToken": 71.98070840176753,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Syncswap",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Kannagi Token",
+          "symbol": "$KANA",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x061b2a0b227aa66d2c847d"
+          },
+          "contractAddress": "0x26aC1D9945f65392B8E4E6b895969b5c01A7B414",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x17e0a1ea07"
+          },
+          "contractAddress": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+          "decimals": 6,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Velocore-0xcd52cbc975fbb802f82a1f92112b1250b5a997df",
+    "type": "pool",
+    "attributes": {
+      "address": "0xcd52cbc975fbb802f82a1f92112b1250b5a997df",
+      "name": "USDC / WETH",
+      "baseTokenPriceQuoteToken": 0.000521069486309994,
+      "quoteTokenPriceBaseToken": 1919.12984,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Velocore",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x0270fe56dcf8"
+          },
+          "contractAddress": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x4bd3264897c1155ece"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Velocore-0x80ab452b8ba46722029a69308ac52c0897d3a855",
+    "type": "pool",
+    "attributes": {
+      "address": "0x80ab452b8ba46722029a69308ac52c0897d3a855",
+      "name": "WETH / VC",
+      "baseTokenPriceQuoteToken": 60110.01993324525,
+      "quoteTokenPriceBaseToken": 0.000016636161510353,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Velocore",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x154d561c176f03b944"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Velocore",
+          "symbol": "VC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x1389d55dabe9e775fabdda"
+          },
+          "contractAddress": "0x85D84c774CF8e9fF85342684b0E795Df72A24908",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Velocore-0x62eb02cb53673b5855f2c0ea4b8fe198901f34ac",
+    "type": "pool",
+    "attributes": {
+      "address": "0x62eb02cb53673b5855f2c0ea4b8fe198901f34ac",
+      "name": "WETH / RF",
+      "baseTokenPriceQuoteToken": 88612.32576000346,
+      "quoteTokenPriceBaseToken": 0.000011285111765471,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Velocore",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x060169061209cfaa16"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "ReactorFusion",
+          "symbol": "RF",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x081ec219cce2dcc1f4e797"
+          },
+          "contractAddress": "0x5f7CBcb391d33988DAD74D6Fd683AadDA1123E4D",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0xdfaab828f5f515e104baaba4d8d554da9096f0e4",
+    "type": "pool",
+    "attributes": {
+      "address": "0xdfaab828f5f515e104baaba4d8d554da9096f0e4",
+      "name": "USDC / WETH",
+      "baseTokenPriceQuoteToken": 0.000520214023499093,
+      "quoteTokenPriceBaseToken": 1922.285742,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x08b90b82dc86"
+          },
+          "contractAddress": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x010e7868d5404af686bf"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0xb85feb6af3412d690dfda280b73eaed73a2315bc",
+    "type": "pool",
+    "attributes": {
+      "address": "0xb85feb6af3412d690dfda280b73eaed73a2315bc",
+      "name": "MUTE / WETH",
+      "baseTokenPriceQuoteToken": 0.000260442122782499,
+      "quoteTokenPriceBaseToken": 3839.624670987355,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Mute.io",
+          "symbol": "MUTE",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x019910f1b4b71351d8c99f"
+          },
+          "contractAddress": "0x0e97C7a0F8B2C9885C8ac9fC6136e829CbC21d42",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x1b461426f4f6faaca4"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0x7c21e2e777cecaf969bf7b7aef0e3bf23d043672",
+    "type": "pool",
+    "attributes": {
+      "address": "0x7c21e2e777cecaf969bf7b7aef0e3bf23d043672",
+      "name": "WETH / WBTC",
+      "baseTokenPriceQuoteToken": 0.06238635,
+      "quoteTokenPriceBaseToken": 16.029147944304604,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x1602e3a9c5249d7aa8"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Wrapped BTC",
+          "symbol": "WBTC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x96fc3ff8"
+          },
+          "contractAddress": "0xBBeB516fb02a01611cBBE0453Fe3c580D7281011",
+          "decimals": 8,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Muteio-0x1bb4855770eb93e96f5793abcacc3106c2becf31",
+    "type": "pool",
+    "attributes": {
+      "address": "0x1bb4855770eb93e96f5793abcacc3106c2becf31",
+      "name": "MUTE / USDC",
+      "baseTokenPriceQuoteToken": 0.500649,
+      "quoteTokenPriceBaseToken": 1.9974081746388075,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Muteio",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "Mute.io",
+          "symbol": "MUTE",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x298350745a3d21729efe"
+          },
+          "contractAddress": "0x0e97C7a0F8B2C9885C8ac9fC6136e829CbC21d42",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x16da0247e7"
+          },
+          "contractAddress": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+          "decimals": 6,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Spacefi-0xd0ce094412898760c2a5e37abec39b0e785b45ae",
+    "type": "pool",
+    "attributes": {
+      "address": "0xd0ce094412898760c2a5e37abec39b0e785b45ae",
+      "name": "USDC / WETH",
+      "baseTokenPriceQuoteToken": 0.000520267858912024,
+      "quoteTokenPriceBaseToken": 1922.086831,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Spacefi",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x0303714dfbf3"
+          },
+          "contractAddress": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x5d72ba9053702a0128"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Spacefi-0xfdc4ce439e672e81c6b86e6cd45ffb0a7ccf9d44",
+    "type": "pool",
+    "attributes": {
+      "address": "0xfdc4ce439e672e81c6b86e6cd45ffb0a7ccf9d44",
+      "name": "SPACE / WETH",
+      "baseTokenPriceQuoteToken": 0.00007571344850727,
+      "quoteTokenPriceBaseToken": 13207.693213233759,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Spacefi",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "SPACE",
+          "symbol": "SPACE",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0xd6cbbd66a8e62fb209a8"
+          },
+          "contractAddress": "0x47260090cE5e83454d5f05A0AbbB2C953835f777",
+          "decimals": 18,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x0429cec6cad3e67d64"
+          },
+          "contractAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  },
+  {
+    "id": "Spacefi-0x4b747b1f9dbae8c55b007817553b49acb360812f",
+    "type": "pool",
+    "attributes": {
+      "address": "0x4b747b1f9dbae8c55b007817553b49acb360812f",
+      "name": "USDC / SPACE",
+      "baseTokenPriceQuoteToken": 6.871011422163953,
+      "quoteTokenPriceBaseToken": 0.145539,
+      "swapFee": "0.3"
+    },
+    "relationships": {
+      "dex": {
+        "data": {
+          "id": "Spacefi",
+          "type": "dex"
+        }
+      },
+      "baseToken": {
+        "data": {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0x205acd6f3a"
+          },
+          "contractAddress": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+          "decimals": 6,
+          "type": "token"
+        }
+      },
+      "quoteToken": {
+        "data": {
+          "name": "SPACE",
+          "symbol": "SPACE",
+          "reserves": {
+            "type": "BigNumber",
+            "hex": "0xca307669eb0d0f1bb421"
+          },
+          "contractAddress": "0x47260090cE5e83454d5f05A0AbbB2C953835f777",
+          "decimals": 18,
+          "type": "token"
+        }
+      }
+    }
+  }
+]
